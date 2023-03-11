@@ -1,0 +1,46 @@
+Task_1
+Thread id: 1     Threads: 8      Hello World
+Thread id: 0     Threads: 8      Hello World
+Thread id: 2     Threads: 8      Hello World
+Thread id: 7     Threads: 8      Hello World
+Thread id: 4     Threads: 8      Hello World
+Thread id: 5     Threads: 8      Hello World
+Thread id: 6     Threads: 8      Hello World
+Thread id: 3     Threads: 8      Hello World
+
+Task_3
+Thread id: 7     Threads: 8      Hello World
+Thread id: 6     Threads: 8      Hello World
+Thread id: 5     Threads: 8      Hello World
+Thread id: 4     Threads: 8      Hello World
+Thread id: 3     Threads: 8      Hello World
+Thread id: 2     Threads: 8      Hello World
+Thread id: 1     Threads: 8      Hello World
+Thread id: 0     Threads: 8      Hello World
+
+Task_4
+Sequential version: 17.8697 s
+Parallel version with 2 threads: 7.49499 s
+Parallel version with 4 threads: 5.93416 s
+Parallel version with 8 threads: 4.11677 s
+
+Normal transposition
+Time for sequential transpose: 0.013593 s
+Time for parallel transpose with 2 threads: 0.0114947 s
+Time for parallel transpose with 4 threads: 0.0109609 s
+Time for parallel transpose with 8 threads: 0.0135552 s
+
+Tile transposition
+Time for sequential transpose: 0.0093851 s
+Time for parallel transpose with 2 threads: 0.0071315 s and block size:8
+Time for parallel transpose with 4 threads: 0.0052454 s and block size:8
+Time for parallel transpose with 8 threads: 0.0092796 s and block size:8
+Time for parallel transpose with 2 threads: 0.0070826 s and block size:16
+Time for parallel transpose with 4 threads: 0.005178 s and block size:16
+Time for parallel transpose with 8 threads: 0.0084686 s and block size:16
+Time for parallel transpose with 2 threads: 0.0068253 s and block size:32
+Time for parallel transpose with 4 threads: 0.0056975 s and block size:32
+Time for parallel transpose with 8 threads: 0.0086834 s and block size:32
+Time for parallel transpose with 2 threads: 0.0067488 s and block size:64
+Time for parallel transpose with 4 threads: 0.0110127 s and block size:64
+Time for parallel transpose with 8 threads: 0.0207816 s and block size:64
