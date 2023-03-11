@@ -8,28 +8,4 @@
 11. Разработайте программу решения задачи определения транспонированной матрицы для квадратной матрицы. 
 
 
-- Task 1
-- Thread id: 1     Threads: 8      Hello World
-- Thread id: 0     Threads: 8      Hello World
-- Thread id: 2     Threads: 8      Hello World
-- Thread id: 7     Threads: 8      Hello World
-- Thread id: 4     Threads: 8      Hello World
-- Thread id: 5     Threads: 8      Hello World
-- Thread id: 6     Threads: 8      Hello World
-- Thread id: 3     Threads: 8      Hello World
 
-- Task 3
-- Thread id: 7     Threads: 8      Hello World
-- Thread id: 6     Threads: 8      Hello World
-- Thread id: 5     Threads: 8      Hello World
-- Thread id: 4     Threads: 8      Hello World
-- Thread id: 3     Threads: 8      Hello World
-- Thread id: 2     Threads: 8      Hello World
-- Thread id: 1     Threads: 8      Hello World
-- Thread id: 0     Threads: 8      Hello World
-
-- Task 4
-- Sequential version: 17.8697 s
-- Parallel version with 2 threads: 7.49499 s
-- Parallel version with 4 threads: 5.93416 s
-- Parallel version with 8 threads: 4.11677 s
